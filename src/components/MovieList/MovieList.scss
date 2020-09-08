@@ -1,0 +1,19 @@
+.movieContainer {
+  width: 90%;
+  margin: 20px auto 0 auto;
+}
+.search {
+  width: 100%;
+  font-size: 24px;
+  display: block;
+  padding: 8px;
+  margin: 8px auto;
+  border: 1px solid #dadada;
+  align-items: center;
+}
+
+@media screen and (min-width: 992px) {
+  .movieContainer {
+    max-width: 992px;
+  }
+}
