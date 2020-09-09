@@ -8,11 +8,7 @@ export default function Header() {
         <tbody>
           <tr>
             <td>
-              <img
-                src="./images/green_app_icon.svg"
-                alt="app logo"
-                width="50"
-              />
+              <img src="./images/moviedb_logo.svg" alt="app logo" width="50" />
             </td>
             <td width="8"></td>
             <td>
