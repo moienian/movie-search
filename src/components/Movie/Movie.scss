@@ -1,0 +1,46 @@
+.movie-item {
+  display: flex;
+  margin: 24px 0;
+  height: 240px;
+
+  img {
+    height: 100%;
+  }
+
+  .movie-review {
+    position: relative;
+    display: flex;
+    max-height: 100%;
+    flex-direction: column;
+    // justify-content: space-between;
+    margin-left: 12px;
+
+    h2 {
+      margin: 0;
+    }
+
+    p {
+      overflow: hidden;
+    }
+
+    .view-btn {
+      position: absolute;
+      bottom: 0;
+      width: 70px;
+      height: 40px;
+      font-size: 1.1rem;
+      border: none;
+      border: 1px solid #000;
+      border-radius: 5px;
+      background-color: #000;
+      color: #fff;
+      transition: all 0.3s ease;
+
+      &:hover {
+        cursor: pointer;
+        background-color: #fff;
+        color: #000;
+      }
+    }
+  }
+}
